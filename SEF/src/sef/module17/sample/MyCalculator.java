@@ -3,7 +3,7 @@ package sef.module17.sample;
 class MyCalculator {
 	
 	public int getSum(int a, int b) {
-		
+		System.out.println ("My addition code");
 		return a + b;
 	}
 	

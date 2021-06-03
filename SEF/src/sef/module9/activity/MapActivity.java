@@ -1,7 +1,11 @@
 package sef.module9.activity;
 //Needs to be completed
 
+import sef.module9.sample.MapSample;
+
+import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 
 public class MapActivity {
@@ -11,45 +15,28 @@ public class MapActivity {
 		public static void main(String[] args) {
 			//1 - Type code to create a HashMap of key value pair
 			//where key is id of type String and value is a name
-			
-			print(temp);
-			print1(10);
-			print2(temp);
-			print3(temp);
+			Map map = new HashMap();
+			map.put ("1234", "Sanja");
+			map.put("4567","Danja");
+			map.put("8899","Rita");
+
+
 			//2 - Call print method to print the map passed as its parameter.
-		
+
+			System.out.println(map.get("1234"));
+			System.out.println(map.get("4567"));
+			System.out.println(map.get("8899"));
+
+			new MapActivity().print(map);
 		}
-		
-		static void print(String test)
-		{
-			int temp = Integer.valueOf(test);
-			
-			System.out.println(test.toUpperCase());
-		
-		}
-		static void print1(int a)
-		{
-			//int a = 10; 
-			for (int i = 0 ; i< a; i++) {
+			void print(Map map){
+			Set keySet = map.keySet();
+				System.out.println("-");
+				System.out.println("Key\tValue");
+		}}
 				
 				
-				
-				
-			}
+
 		
-		}
-		static void print2(String test)
-		{
-			int temp = Integer.valueOf(test);
-			
-			System.out.println(test.toUpperCase());
-		
-		}
-		static void print3(String test)
-		{
-			int temp = Integer.valueOf(test);
-			
-			System.out.println(test.toUpperCase());
-		
-		}
-	}
+
+

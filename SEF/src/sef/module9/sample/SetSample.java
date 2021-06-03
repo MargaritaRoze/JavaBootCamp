@@ -2,7 +2,7 @@ package sef.module9.sample;
 //Needs to be completed
 import java.util.*;
 
-import sef.module3.sample.WhileLoopSample;
+//import sef.module3.sample.WhileLoopSample;
 
 public class SetSample {
 	public static void main(String[] args) {
