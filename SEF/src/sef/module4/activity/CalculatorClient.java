@@ -31,7 +31,7 @@ public class CalculatorClient {
 		// Subtract
 		result = normalCalc.subtract(4, 5);
 		System.out.println("3) Subtract result is "+ result);
-
+        // Divide
 		result = normalCalc.divide(6, 2);
 		System.out.println("4) Divide result is" + result);
 

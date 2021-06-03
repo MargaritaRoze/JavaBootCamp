@@ -10,8 +10,14 @@ public class ArrayExceptionSample {
 		//But the the loop below will run from 0 to 5.
 		//Last index is 4 so accessing scores[5] will cause an exception
 		//1 - Create a for loop that runs from 0-5. Print elements of this array inside the loop.
-		for (int i=0; i <5; i++) {
-			System.out.println(scores[i]);
+		try {
+			for (int i = 0; i < 10; i++) {
+				System.out.println(scores[i]);
+			}
+		}
+		catch(ArrayIndexOutOfBoundsException ArrEx)
+		{System.out.println(" You are in catch block due to ArithmeticException");
+//
 		}
 		
 			
