@@ -13,10 +13,10 @@ public class StudentsTest extends TestCase {
     }
     public void testSetAndGetName() {
         String testName = "Danny";
-        assertEquals("Danny", "Danny");
-        assertEquals("Danny", "56");
+        assertEquals("Danny", theStudents.getName());
+        assertEquals("56", theStudents.getName());
     }
     public void testSetAndGetSchoolName() {
         String tesSchoolName = "Baltic University";
-        assertEquals("Baltic University", "Baltic University");
+        assertEquals("Baltic University", theStudents.getschoolName());
 }}

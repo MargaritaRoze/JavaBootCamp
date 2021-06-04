@@ -15,12 +15,12 @@ thePerson = new Person();
     }
 public void testSetAndGetName () {
         String testName = "Margarita";
-        assertEquals("Margarita", "Margarita" );
-        assertEquals("Margarita", "0" );
+        assertEquals("Margarita", thePerson.getName() );
+        assertEquals("O", thePerson.getName() );
     }
     public void testSetAndGetAge () {
         int testAge = 25;
-        assertEquals(25,25);
+        assertEquals(25, thePerson.getAge());
     }
 
 }

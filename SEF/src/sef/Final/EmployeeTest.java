@@ -19,17 +19,17 @@ public class EmployeeTest extends TestCase {
     }
     public void testSetAndGetAge () {
         int testAge = 22;
-        assertEquals(22, 22);
+        assertEquals(22, theEmployee.getAge());
     }
 
         public void testSetAndGetJobTitle() {
             String testJobTitle = "PMO";
-            assertEquals("PMO","PMO");
-            assertEquals("0","1");
+            assertEquals("PMO",theEmployee.getJobTitle());
+            assertEquals("0",theEmployee.getJobTitle());
 
         }
         public void testSetAndGetCompany(){
         String testCompany = "Accenture";
-        assertEquals("Accenture","Accenture");
+        assertEquals("Accenture",theEmployee.getCompany());
         }
 }
