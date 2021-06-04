@@ -11,7 +11,7 @@ public class Employee_I extends Person_I {
 	public Employee_I(){
 		this.salary = 0;
 		this.title = "Mr.";
-		System.out.println("I'm an Emplyee_I Constructor");
+		System.out.println("I'm an Employee_I Constructor");
 
 
 	}
